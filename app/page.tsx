@@ -273,7 +273,7 @@ export default function Home() {
         </div>
 
         <div className="max-w-[600px] mx-auto mt-8">
-          <form className="space-y-4" action="https://formspree.io/f/xayrqwgj" method="POST">
+          <form className="space-y-4" action="https://formspree.io/f/mgvkoadq" method="POST">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Input name="name" placeholder="Your Name" required />
