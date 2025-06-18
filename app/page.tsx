@@ -1,7 +1,14 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Github, Linkedin, Twitter, Facebook, Instagram, Mail } from "lucide-react"
@@ -71,6 +78,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+          {/* Existing Cards */}
           <Card className="card-highlight">
             <CardHeader>
               <CardTitle className="font-handwriting text-2xl">SurveyPath</CardTitle>
@@ -236,6 +244,85 @@ export default function Home() {
               <Button asChild className="w-full">
                 <a href="https://surveymanagerapp.com/website_templates" target="_blank" rel="noopener noreferrer">
                   Browse Templates
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          {/* New Cards */}
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">Elevatr</CardTitle>
+              <CardDescription>elevatr.dev</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image
+                src="/images/elevatr.jpg"
+                alt="Elevatr"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
+              <p className="text-sm text-muted-foreground">
+                A platform for tracking professional experience, documenting work, and preparing for licensure.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://elevatr.dev" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">Vibe Marketing Studio</CardTitle>
+              <CardDescription>vibemarketingstudio.com</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image
+                src="/images/vibemarketingstudio.jpg"
+                alt="Vibe Marketing Studio"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
+              <p className="text-sm text-muted-foreground">
+                AI-powered platform for automated social media marketing, including auto-posting, content generation, and analytics.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://vibemarketingstudio.com" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">AI Tracker</CardTitle>
+              <CardDescription>aitracker.dev</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image
+                src="/images/aitracker.jpg"
+                alt="AI Tracker"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
+              <p className="text-sm text-muted-foreground">
+                Discover the latest AI platforms, tools, and market trends, providing a comprehensive guide to the AI ecosystem.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://www.aitracker.dev" target="_blank" rel="noopener noreferrer">
+                  Visit Site
                 </a>
               </Button>
             </CardFooter>
