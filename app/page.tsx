@@ -327,6 +327,62 @@ export default function Home() {
               </Button>
             </CardFooter>
           </Card>
+
+          <Card className="card-highlight">
+        <CardHeader>
+          <CardTitle className="font-handwriting text-2xl">Folder Copilot</CardTitle>
+          <CardDescription>AI-Powered File Management</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Image
+            src="/images/foldercopilot.jpg"
+            alt="Folder Copilot"
+            width={350}
+            height={200}
+            className="rounded-md mb-4 object-cover w-full"
+          />
+          <p className="text-sm text-muted-foreground">
+            AI-powered file organization tool for students, developers, and professionals. Automatically generates
+            course folders from syllabi, creates project scaffolds with boilerplate code, and builds customized
+            organizational systems.
+          </p>
+        </CardContent>
+        <CardFooter>
+          <Button asChild className="w-full">
+            <a href="https://foldercopilot.com" target="_blank" rel="noopener noreferrer">
+              Visit Site
+            </a>
+          </Button>
+        </CardFooter>
+      </Card>
+
+      <Card className="card-highlight">
+        <CardHeader>
+          <CardTitle className="font-handwriting text-2xl">CareVoice AI</CardTitle>
+          <CardDescription>Healthcare Communication Platform</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Image
+            src="/images/carevoiceai.jpg"
+            alt="CareVoice AI"
+            width={350}
+            height={200}
+            className="rounded-md mb-4 object-cover w-full"
+          />
+          <p className="text-sm text-muted-foreground">
+            Healthcare patient protection platform featuring a 24/7 AI emergency hotline for symptom triage and
+            automated care report generation. Protects vulnerable patients through documentation and legal-grade medical
+            records.
+          </p>
+        </CardContent>
+        <CardFooter>
+          <Button asChild className="w-full">
+            <a href="https://carevoiceai.org" target="_blank" rel="noopener noreferrer">
+              Visit Site
+            </a>
+          </Button>
+        </CardFooter>
+      </Card>
         </div>
       </section>
 
