@@ -13,6 +13,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Github, Linkedin, Twitter, Facebook, Instagram, Mail } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
+import UnfinishedPlatforms from "../components/unfinished-platforms"
 
 export default function Home() {
   return (
@@ -385,6 +386,9 @@ export default function Home() {
       </Card>
         </div>
       </section>
+
+      {/* Unfinished Platforms Section */}
+      <UnfinishedPlatforms />
 
       {/* Donate Section */}
       <section id="donate" className="bg-muted py-24">
