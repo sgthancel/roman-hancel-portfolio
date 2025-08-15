@@ -3,7 +3,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Brain, Shield, Zap, Globe, MapPin, Wrench } from "lucide-react"
+import { ExternalLink, Brain, Shield, Zap, Globe, MapPin, Wrench, Search, Clock, BarChart3 } from "lucide-react"
 
 const platforms = [
   {
@@ -117,6 +117,54 @@ const platforms = [
     techShowcase:
       "Demonstrates expertise in EdTech innovation, AI-powered content generation, learning management systems, and building scalable educational platforms that adapt to individual learning needs.",
   },
+  {
+  title: "AYC - AI Startup Scout",
+  description:
+    "AI-powered platform for founders, investors, and accelerators to discover groundbreaking startup solutions and generate new ideas",
+  url: "https://ayc-ten.vercel.app/",
+  icon: <Search className="h-6 w-6" />,
+  skills: ["AI Analysis", "Startup Ecosystem", "Data Insights", "Partnership Matching"],
+  highlights: [
+    "Data-driven insights from Y Combinator directories",
+    "Tailored recommendations for startup matches",
+    "Partnership opportunity identification",
+    "Intelligent matching and idea generation",
+  ],
+  techShowcase:
+    "Demonstrates expertise in building AI-powered discovery platforms, processing large datasets from startup ecosystems, and creating intelligent matching algorithms for complex business relationships.",
+},
+{
+  title: "TimeAI - AI-Powered Timesheet Management",
+  description:
+    "Voice-powered AI timesheet platform that streamlines time tracking for teams through intelligent automation",
+  url: "https://ai-timesheet-app.vercel.app/",
+  icon: <Clock className="h-6 w-6" />,
+  skills: ["Voice AI", "Team Management", "Payroll Integration", "Smart Analytics"],
+  highlights: [
+    "Voice-first time logging with AI processing",
+    "Real-time analytics dashboards",
+    "Multi-platform payroll exports (QuickBooks, Gusto, ADP)",
+    "Smart suggestions based on patterns and calendar data",
+  ],
+  techShowcase:
+    "Showcases advanced voice AI integration, enterprise payroll system connectivity, and building scalable SaaS platforms with tiered pricing and team management capabilities.",
+},
+{
+  title: "Ambrose AI - Government Research Platform",
+  description:
+    "Personalized AI research agent for government insights with interactive global trend analysis and reporting",
+  url: "https://ai-timesheet-app-1a5n.vercel.app/",
+  icon: <BarChart3 className="h-6 w-6" />,
+  skills: ["Government Research", "Data Visualization", "Interactive Mapping", "AI Reporting"],
+  highlights: [
+    "Interactive world map for global governance trends",
+    "Drill-down analysis to states and provinces",
+    "Automated report generation and search",
+    "AI-powered research agent workflow",
+  ],
+  techShowcase:
+    "Demonstrates expertise in building government-grade research platforms, complex geospatial data visualization, and AI-powered analytical tools for policy and governance insights.",
+},
 ]
 
 export default function UnfinishedPlatforms() {
