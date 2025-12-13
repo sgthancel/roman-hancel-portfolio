@@ -291,7 +291,7 @@ export default function Home() {
                 className="rounded-md mb-4 object-cover w-full"
               />
               <p className="text-sm text-muted-foreground">
-                AI-powered platform for automated social media marketing, including auto-posting, content generation, and analytics.
+                Powerful marketing automation platform with AI-powered automated social media marketing, including auto-posting, content generation, and analytics.
               </p>
             </CardContent>
             <CardFooter>
@@ -330,65 +330,192 @@ export default function Home() {
           </Card>
 
           <Card className="card-highlight">
-        <CardHeader>
-          <CardTitle className="font-handwriting text-2xl">Folder Copilot</CardTitle>
-          <CardDescription>AI-Powered File Management</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <Image
-            src="/images/foldercopilot.jpg"
-            alt="Folder Copilot"
-            width={350}
-            height={200}
-            className="rounded-md mb-4 object-cover w-full"
-          />
-          <p className="text-sm text-muted-foreground">
-            AI-powered file organization tool for students, developers, and professionals. Automatically generates
-            course folders from syllabi, creates project scaffolds with boilerplate code, and builds customized
-            organizational systems.
-          </p>
-        </CardContent>
-        <CardFooter>
-          <Button asChild className="w-full">
-            <a href="https://foldercopilot.com" target="_blank" rel="noopener noreferrer">
-              Visit Site
-            </a>
-          </Button>
-        </CardFooter>
-      </Card>
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">Folder Copilot</CardTitle>
+              <CardDescription>AI-Powered File Management</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image
+                src="/images/foldercopilot.jpg"
+                alt="Folder Copilot"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
+              <p className="text-sm text-muted-foreground">
+                AI-powered file organization tool for students, developers, and professionals. Automatically generates
+                course folders from syllabi, creates project scaffolds with boilerplate code, and builds customized
+                organizational systems.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://foldercopilot.com" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
 
-      <Card className="card-highlight">
-        <CardHeader>
-          <CardTitle className="font-handwriting text-2xl">CareVoice AI</CardTitle>
-          <CardDescription>Healthcare Communication Platform</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <Image
-            src="/images/carevoiceai.jpg"
-            alt="CareVoice AI"
-            width={350}
-            height={200}
-            className="rounded-md mb-4 object-cover w-full"
-          />
-          <p className="text-sm text-muted-foreground">
-            Healthcare patient protection platform featuring a 24/7 AI emergency hotline for symptom triage and
-            automated care report generation. Protects vulnerable patients through documentation and legal-grade medical
-            records.
-          </p>
-        </CardContent>
-        <CardFooter>
-          <Button asChild className="w-full">
-            <a href="https://carevoiceai.org" target="_blank" rel="noopener noreferrer">
-              Visit Site
-            </a>
-          </Button>
-        </CardFooter>
-      </Card>
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">CareVoice AI</CardTitle>
+              <CardDescription>Healthcare Communication Platform</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image
+                src="/images/carevoiceai.jpg"
+                alt="CareVoice AI"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
+              <p className="text-sm text-muted-foreground">
+                Healthcare patient protection platform featuring a 24/7 AI emergency hotline for symptom triage and
+                automated care report generation. Protects vulnerable patients through documentation and legal-grade medical
+                records.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://carevoiceai.org" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">OpenVerb</CardTitle>
+              <CardDescription>openverb.org</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-4xl font-handwriting text-primary">OpenVerb</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                The open standard for AI actions. A unified framework for building and integrating AI-powered actions across platforms.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://www.openverb.org/" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">Topics</CardTitle>
+              <CardDescription>topics-beta.vercel.app</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-4xl font-handwriting text-primary">Topics</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                AI-assisted music about real life. Create, share, and discover music that tells authentic stories powered by AI collaboration.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://topics-beta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="border-2 border-primary card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">Roman Hancel Digital Twin</CardTitle>
+              <CardDescription>AI-Powered Digital Assistant</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/30 to-primary/10 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-4xl font-handwriting text-primary">Digital Twin</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Chat with my AI digital twin! Ask questions about my work, get advice on surveying and development, or discuss project ideas 24/7.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://www.vibeflyers.com/twin/6snlg3gjb1prbk4w9yd40q" target="_blank" rel="noopener noreferrer">
+                  Chat with Digital Twin
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
         </div>
       </section>
 
       {/* Unfinished Platforms Section */}
       <UnfinishedPlatforms />
+
+      {/* Books & Music Section */}
+      <section className="container py-24 space-y-8">
+        <div className="flex flex-col items-center text-center space-y-4">
+          <h2 className="text-4xl md:text-5xl font-handwriting tracking-tight">Books & Music</h2>
+          <p className="text-muted-foreground max-w-[700px]">
+            Creative works and resources
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 max-w-4xl mx-auto">
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">Built From the Ground Up</CardTitle>
+              <CardDescription>By Roman Hancel</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-3xl font-handwriting text-primary">📚</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                A comprehensive summary of the techniques and methodologies used to build my applications. Learn the strategies behind successful app development.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://6829743742592.gumroad.com/l/builtfromthegroundup" target="_blank" rel="noopener noreferrer">
+                  Get the Book
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">The Smear Campaign</CardTitle>
+              <CardDescription>Debut Album by Roman Hancel</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-3xl font-handwriting text-primary">🎵</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                My debut album featuring AI-assisted music about real life. Available on YouTube and Topics.
+              </p>
+            </CardContent>
+            <CardFooter className="flex flex-col gap-2">
+              <Button asChild className="w-full">
+                <a href="https://topics-beta.vercel.app/albums/the-smear-campaign" target="_blank" rel="noopener noreferrer">
+                  Listen on Topics
+                </a>
+              </Button>
+              <Button asChild variant="outline" className="w-full">
+                <a href="https://youtube.com/playlist?list=PLUPR89uUIsA84wyqSY230lMMbQ_GtWQPs&si=E59ugY6qs9Mqv20X" target="_blank" rel="noopener noreferrer">
+                  Listen on YouTube
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+        </div>
+      </section>
 
       {/* Donate Section */}
       <section id="donate" className="bg-muted py-24">

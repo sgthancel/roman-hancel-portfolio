@@ -165,6 +165,22 @@ const platforms = [
   techShowcase:
     "Demonstrates expertise in building government-grade research platforms, complex geospatial data visualization, and AI-powered analytical tools for policy and governance insights.",
 },
+{
+  title: "PaywallOS",
+  description:
+    "Protect your features. Grow your revenue. Unlock your app's revenue potential with intelligent paywall management and monetization tools",
+  url: "https://pay-wall-os.vercel.app/",
+  icon: <Shield className="h-6 w-6" />,
+  skills: ["Payment Systems", "Feature Gating", "Revenue Analytics", "Subscription Management"],
+  highlights: [
+    "Intelligent feature access control",
+    "Multi-tier subscription management",
+    "Revenue optimization analytics",
+    "Easy integration with existing apps",
+  ],
+  techShowcase:
+    "Showcases expertise in building monetization platforms, payment system integration, subscription lifecycle management, and creating developer-friendly tools for SaaS revenue growth.",
+},
 ]
 
 export default function UnfinishedPlatforms() {
