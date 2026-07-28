@@ -450,6 +450,28 @@ export default function Home() {
               </Button>
             </CardFooter>
           </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">GroceryAI</CardTitle>
+              <CardDescription>grocery.openverb.org</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-4xl font-handwriting text-primary">GroceryAI</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Your intelligent grocery assistant. AI-powered pantry tracking, expiration alerts, and instant grocery ordering.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://grocery.openverb.org/" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
         </div>
       </section>
 
