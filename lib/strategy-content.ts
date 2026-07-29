@@ -3729,5 +3729,109 @@ But the underlying mission remains:
 
 **Build systems that expand human capability.**
 `
+  },
+  "founder-dashboard": {
+    title: "Founder Dashboard",
+    content: `# Founder Ecosystem Dashboard
+
+## Overview
+
+This dashboard provides a comprehensive living overview of the Roman Hancel software ecosystem. It is designed for potential co-founders, investors, and early employees to understand the scope of the portfolio, distribution channels, and technical footprint.
+
+---
+
+## Products
+
+*   **OpenVerb**: AI action execution infrastructure
+*   **Survey Manager**: Surveying workflow and business management software
+*   **FolderCopilot**: AI-powered project and workspace management
+*   **Elevatr**: Professional experience tracking and verification platform
+*   **PaywallOS**: AI-native access control and monetization
+*   **Topics Archive**: AI-powered educational media archive
+
+---
+
+## Code & Open Source
+
+*   **GitHub**: [sgthancel (Roman Hancel)](https://github.com/sgthancel)
+*   **npm**: [OpenVerb Packages](https://www.npmjs.com/search?q=openverb)
+*   **PyPI**: Python packages
+*   **Documentation**: Technical guides and API references
+*   **OpenVerb Sandbox**: Interactive testing environment
+*   **GitLab**: Code mirroring (Future)
+
+---
+
+## Distribution & Marketplaces
+
+*   **Product Hunt**: Software launches
+*   **Gumroad**: Direct software sales
+*   **Spotify**: Creator/Music distribution
+*   **DistroKid**: Music distribution
+*   **Suno**: Creator/Music
+*   **Docker Hub**: Container images
+*   **VS Code Marketplace**: IDE extensions
+*   **Chrome Web Store**: Browser extensions (e.g., FolderCopilot)
+
+---
+
+## Content & Social Reach
+
+### Professional & Technical
+*   **LinkedIn**: [Roman Hancel](https://www.linkedin.com/) (Primary B2B & Founder channel)
+*   **DEV Community**: Technical articles
+*   **Medium**: Long-form startup lessons
+*   **Hacker News**: Significant technical releases
+*   **Hashnode**: Developer blogs
+
+### Social
+*   **X (Twitter)**: Developer awareness and AI discussions
+*   **Facebook**: Brand awareness and social
+*   **Instagram**: Reels and visual updates
+*   **Threads**: Social discussions
+*   **TikTok**: Short-form video
+
+---
+
+## Video
+
+*   **YouTube**: [GeodevSpace](https://www.youtube.com/)
+*   **YouTube Shorts**: Repurposed vertical content
+*   **Instagram Reels**: Repurposed vertical content
+*   **TikTok**: Repurposed vertical content
+*   **Facebook Reels**: Repurposed vertical content
+
+---
+
+## Community
+
+*   **Reddit**: Technical communities, SaaS builders, GIS
+*   **Discord**: OpenVerb and product communities
+*   **Slack**: AI, GIS, and Startup communities
+*   **Indie Hackers**: Building in public and founder networking
+*   **Newsletter**: Direct email updates
+
+---
+
+## Analytics (Key Metrics)
+
+*(To be updated with live numbers)*
+*   **GitHub**: Stars, Forks, Contributors
+*   **Downloads**: npm & PyPI statistics
+*   **Traffic**: Website visitors across portfolio
+*   **Social**: LinkedIn followers, YouTube subscribers
+*   **Community**: Discord members
+*   **Launches**: Product Hunt upvotes
+
+---
+
+## Founder Resources
+
+*   **Resume/Portfolio**: Professional background
+*   **Pitch Deck**: Ecosystem opportunity presentation
+*   **Roadmap**: Future product timelines
+*   **Technical Architecture**: System design documents
+*   **Contact Information**: Direct communication links
+`
   }
 };
