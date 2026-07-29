@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import ReactMarkdown from 'react-markdown'
 import { strategyContent } from '@/lib/strategy-content'
 import { DownloadButton } from '@/components/download-button'
+import { TTSButton } from '@/components/tts-button'
 import { cookies } from 'next/headers'
 
 export async function generateStaticParams() {
@@ -25,7 +26,10 @@ export default async function StrategyDocumentPage({ params }: { params: Promise
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b">
         <h1 className="text-3xl font-handwriting tracking-tight">{document.title}</h1>
-        <DownloadButton content={document.content} filename={slug} role={role} />
+        <div className="flex items-center gap-2">
+          <TTSButton content={document.content} />
+          <DownloadButton content={document.content} filename={slug} role={role} />
+        </div>
       </div>
       
       <div className="prose prose-slate dark:prose-invert max-w-none">

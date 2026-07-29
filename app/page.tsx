@@ -25,6 +25,9 @@ export default function Home() {
             <span className="text-primary">Roman Hancel</span>
           </div>
           <nav className="hidden md:flex gap-6">
+            <Link href="/strategy" className="text-sm font-medium hover:text-primary">
+              Strategy
+            </Link>
             <Link href="#projects" className="text-sm font-medium hover:text-primary">
               Projects
             </Link>

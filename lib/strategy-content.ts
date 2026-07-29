@@ -3742,12 +3742,12 @@ This dashboard provides a comprehensive living overview of the Roman Hancel soft
 
 ## Products
 
-*   **OpenVerb**: AI action execution infrastructure
-*   **Survey Manager**: Surveying workflow and business management software
-*   **FolderCopilot**: AI-powered project and workspace management
-*   **Elevatr**: Professional experience tracking and verification platform
-*   **PaywallOS**: AI-native access control and monetization
-*   **Topics Archive**: AI-powered educational media archive
+*   **OpenVerb**: [openverb.org](https://openverb.org) — AI action execution infrastructure
+*   **Survey Manager**: [Survey Manager App](#) — Surveying workflow and business management software
+*   **FolderCopilot**: [FolderCopilot App](#) — AI-powered project and workspace management
+*   **Elevatr**: [Elevatr Platform](#) — Professional experience tracking and verification platform
+*   **PaywallOS**: [PaywallOS App](#) — AI-native access control and monetization
+*   **Topics Archive**: [Topics Archive](#) — AI-powered educational media archive
 
 ---
 
@@ -3755,23 +3755,23 @@ This dashboard provides a comprehensive living overview of the Roman Hancel soft
 
 *   **GitHub**: [sgthancel (Roman Hancel)](https://github.com/sgthancel)
 *   **npm**: [OpenVerb Packages](https://www.npmjs.com/search?q=openverb)
-*   **PyPI**: Python packages
-*   **Documentation**: Technical guides and API references
-*   **OpenVerb Sandbox**: Interactive testing environment
-*   **GitLab**: Code mirroring (Future)
+*   **PyPI**: [Python Packages (OpenVerb)](https://pypi.org/search/?q=openverb)
+*   **Documentation**: [Technical Guides & API References](https://openverb.org/docs)
+*   **OpenVerb Sandbox**: [Interactive Testing Environment](https://openverb.org/sandbox)
+*   **GitLab**: [Code mirroring (Future)](https://gitlab.com/)
 
 ---
 
 ## Distribution & Marketplaces
 
-*   **Product Hunt**: Software launches
-*   **Gumroad**: Direct software sales
-*   **Spotify**: Creator/Music distribution
-*   **DistroKid**: Music distribution
-*   **Suno**: Creator/Music
-*   **Docker Hub**: Container images
-*   **VS Code Marketplace**: IDE extensions
-*   **Chrome Web Store**: Browser extensions (e.g., FolderCopilot)
+*   **Product Hunt**: [Product Hunt Profile](https://www.producthunt.com/)
+*   **Gumroad**: [Gumroad Store](https://gumroad.com/)
+*   **Spotify**: [Spotify Artist/Podcast](https://open.spotify.com/)
+*   **DistroKid**: [DistroKid Account](https://distrokid.com/)
+*   **Suno**: [Suno Profile](https://suno.com/)
+*   **Docker Hub**: [Docker Hub Repository](https://hub.docker.com/)
+*   **VS Code Marketplace**: [VS Code Extensions](https://marketplace.visualstudio.com/)
+*   **Chrome Web Store**: [Chrome Web Store](https://chrome.google.com/webstore)
 
 ---
 
@@ -3779,37 +3779,37 @@ This dashboard provides a comprehensive living overview of the Roman Hancel soft
 
 ### Professional & Technical
 *   **LinkedIn**: [Roman Hancel](https://www.linkedin.com/) (Primary B2B & Founder channel)
-*   **DEV Community**: Technical articles
-*   **Medium**: Long-form startup lessons
-*   **Hacker News**: Significant technical releases
-*   **Hashnode**: Developer blogs
+*   **DEV Community**: [DEV Profile](https://dev.to/)
+*   **Medium**: [Medium Profile](https://medium.com/)
+*   **Hacker News**: [Hacker News Profile](https://news.ycombinator.com/)
+*   **Hashnode**: [Hashnode Blog](https://hashnode.com/)
 
 ### Social
-*   **X (Twitter)**: Developer awareness and AI discussions
-*   **Facebook**: Brand awareness and social
-*   **Instagram**: Reels and visual updates
-*   **Threads**: Social discussions
-*   **TikTok**: Short-form video
+*   **X (Twitter)**: [X Profile](https://x.com/)
+*   **Facebook**: [Facebook Page](https://facebook.com/)
+*   **Instagram**: [Instagram Profile](https://instagram.com/)
+*   **Threads**: [Threads Profile](https://threads.net/)
+*   **TikTok**: [TikTok Profile](https://tiktok.com/)
 
 ---
 
 ## Video
 
 *   **YouTube**: [GeodevSpace](https://www.youtube.com/)
-*   **YouTube Shorts**: Repurposed vertical content
-*   **Instagram Reels**: Repurposed vertical content
-*   **TikTok**: Repurposed vertical content
-*   **Facebook Reels**: Repurposed vertical content
+*   **YouTube Shorts**: [GeodevSpace Shorts](https://www.youtube.com/)
+*   **Instagram Reels**: [Instagram Reels](https://instagram.com/)
+*   **TikTok**: [TikTok Videos](https://tiktok.com/)
+*   **Facebook Reels**: [Facebook Reels](https://facebook.com/)
 
 ---
 
 ## Community
 
-*   **Reddit**: Technical communities, SaaS builders, GIS
-*   **Discord**: OpenVerb and product communities
-*   **Slack**: AI, GIS, and Startup communities
-*   **Indie Hackers**: Building in public and founder networking
-*   **Newsletter**: Direct email updates
+*   **Reddit**: [Reddit Profile/Communities](https://reddit.com/)
+*   **Discord**: [Discord Server](https://discord.com/)
+*   **Slack**: [Slack Communities](https://slack.com/)
+*   **Indie Hackers**: [Indie Hackers Profile](https://www.indiehackers.com/)
+*   **Newsletter**: [Email Newsletter Subscription](#)
 
 ---
 
