@@ -3982,6 +3982,6 @@ By executing this cadence consistently, every week produces:
 *   1 long-form article or video
 *   1 analytics review cycle
 
-That consistency compounds into massive awareness, adoption, and revenue.\`
+That consistency compounds into massive awareness, adoption, and revenue.`
   }
 };
