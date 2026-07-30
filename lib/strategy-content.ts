@@ -3833,5 +3833,155 @@ This dashboard provides a comprehensive living overview of the Roman Hancel soft
 *   **Technical Architecture**: System design documents
 *   **Contact Information**: Direct communication links
 `
+  },
+  "commercialization-schedule": {
+    title: "Commercialization Schedule",
+    content: `# Weekly Commercialization Schedule
+
+Given the breadth of the Roman Hancel software ecosystem, marketing should not treat each product as an isolated silo. Instead, the ecosystem should operate like a media company with one underlying technology platform.
+
+Your commercialization engine should have one goal every week:
+
+> **Convert attention → trust → conversations → customers.**
+
+Based on your portfolio, here is the funnel alignment:
+
+*   **OpenVerb** → Ecosystem awareness and developer adoption.
+*   **Survey Manager** → Immediate revenue from surveying professionals.
+*   **Elevatr** → Professional credibility and licensing market.
+*   **FolderCopilot** → Developer productivity market.
+*   **PaywallOS** → SaaS founders.
+*   **Topics Archive / YouTube** → Audience growth and organic discovery.
+
+Every piece of content should ultimately point people back into one of those funnels.
+
+---
+
+## Weekly Schedule
+
+### Monday — Product Launch Day
+**Focus:** Publish something new.
+**Examples:**
+*   New OpenVerb library or \`.ov\` example
+*   New Survey Manager feature
+*   New FolderCopilot capability
+*   New Elevatr update
+**Platforms:** LinkedIn, GitHub, NPM/PyPI, X (Twitter), Reddit, YouTube Shorts
+**Goal:** *People should know something shipped this week.*
+
+### Tuesday — Education Day
+**Focus:** Teach your audience.
+**Examples:**
+*   **OpenVerb:** What is a Verb? Why schemas matter.
+*   **Survey Manager:** GIS workflow tips, Survey office automation.
+*   **FolderCopilot:** Organizing projects, AI development workflow.
+*   **Elevatr:** Licensure documentation, Experience tracking.
+**Platforms:** LinkedIn articles, DEV Community, Medium, Hashnode, Newsletter
+**Goal:** *Provide value that builds authority.*
+
+### Wednesday — Demo Day
+**Focus:** Show, don't tell. People buy demonstrations.
+**Formats:** 30-second Short, 2-minute demo, 10-minute deep dive.
+**Examples:**
+*   ".ov files controlling GIS"
+*   "FolderCopilot builds an extension"
+*   "Survey Manager generates invoices"
+**Platforms:** YouTube, YouTube Shorts, TikTok, Instagram Reels, LinkedIn
+
+### Thursday — Outreach Day
+**Focus:** Instead of posting, contact people.
+**Examples:** Connect with founders, survey firms, engineering firms, universities, AI startups, open-source maintainers, and accelerators.
+**Goal:** *10–20 meaningful conversations every week. Real relationships, not spam.*
+
+### Friday — Community Day
+**Focus:** Highlight other people and projects.
+**Examples:**
+*   Showcase interesting GitHub projects or OpenVerb integrations.
+*   Highlight GIS libraries, AI tools, or developer achievements.
+**Platforms:** X (Twitter), LinkedIn, Discord, Hacker News
+**Goal:** *People appreciate being recognized. Build goodwill.*
+
+### Saturday — Long Form
+**Focus:** Publish something substantial.
+**Examples:** A newsletter issue, whitepaper, architecture article, roadmap update, or long-form YouTube video.
+**Goal:** *Cement your thought leadership and authority.*
+
+### Sunday — Analytics
+**Focus:** Review everything.
+**Look at:** Website traffic, GitHub stars, npm/PyPI downloads, newsletter subscribers, YouTube views, LinkedIn impressions, demos booked, trials, and revenue.
+**Goal:** *Decide "What should we do more of next week?"*
+
+---
+
+## Daily Advertising Strategy
+
+Instead of boosting random posts, use a small recurring budget (e.g., $10–20/day) on the highest-performing content:
+
+*   **Monday:** Promote the product launch.
+*   **Wednesday:** Promote the demo.
+*   **Friday:** Promote the educational article.
+
+Targeted daily spend on proven content yields much better results than spreading budget thinly.
+
+---
+
+## Weekly KPIs
+
+Every week, measure progress across these pillars:
+
+*   **Awareness:** LinkedIn impressions, Website visitors, GitHub visitors, YouTube views.
+*   **Community:** Newsletter signups, Discord/community members, GitHub stars, Followers.
+*   **Developers:** npm downloads, PyPI downloads, OpenVerb libraries published, \`.ov\` examples created.
+*   **Sales:** Demo requests, Trial signups, Purchases, Enterprise conversations.
+*   **Partnerships:** New integrations, Podcast invitations, Guest articles, Open-source collaborations.
+
+---
+
+## Monthly Themes
+
+Give every month a focus so people begin associating your brand with specific topics instead of isolated announcements.
+
+*   **Month 1:** OpenVerb Foundations
+*   **Month 2:** Portable Automations (.ov)
+*   **Month 3:** Developer Ecosystem
+*   **Month 4:** GIS Automation
+*   **Month 5:** Survey Management
+*   **Month 6:** AI Infrastructure
+
+---
+
+## The Commercialization Flywheel
+
+\`\`\`mermaid
+graph TD
+    A[Build] --> B[Launch]
+    B --> C[Demo]
+    C --> D[Teach]
+    D --> E[Advertise]
+    E --> F[Outreach]
+    F --> G[Partnerships]
+    G --> H[Customers]
+    H --> I[Testimonials]
+    I --> J[More Content]
+    J --> K[More Trust]
+    K --> L[More Customers]
+\`\`\`
+
+## Core Philosophy
+
+Stop thinking of this as six separate marketing efforts. Operate **one coordinated ecosystem**. 
+
+OpenVerb is the flagship that attracts developers. 
+Survey Manager, Elevatr, FolderCopilot, and PaywallOS are the specific implementations that generate revenue from different professional audiences.
+
+By executing this cadence consistently, every week produces:
+*   1 major launch
+*   3–5 educational posts
+*   2–3 demo videos
+*   10–20 partnership or customer conversations
+*   1 long-form article or video
+*   1 analytics review cycle
+
+That consistency compounds into massive awareness, adoption, and revenue.\`
   }
 };
