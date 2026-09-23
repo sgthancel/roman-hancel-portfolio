@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div className="flex-1 flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
-              <Image src="/profile-parchment.png" alt="Roman Hancel" fill className="object-cover object-top scale-90" priority />
+              <Image src="/profile-parchment.png" alt="Roman Hancel" fill className="object-cover object-top" priority />
             </div>
           </div>
         </div>
