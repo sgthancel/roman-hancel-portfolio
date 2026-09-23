@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Parchment paper placeholder</title>
+  <desc id="desc">A warm handmade parchment texture with a subtle painted frame.</desc>
+  <defs>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="8" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono"><feFuncA type="table" tableValues="0 .16"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="mono" mode="multiply"/>
+    </filter>
+    <radialGradient id="wash" cx="50%" cy="38%" r="78%">
+      <stop offset="0" stop-color="#fff4cf"/>
+      <stop offset=".68" stop-color="#ead6a6"/>
+      <stop offset="1" stop-color="#c9aa72"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#wash)"/>
+  <rect x="22" y="22" width="1156" height="856" rx="8" fill="none" stroke="#7f6040" stroke-width="5" opacity=".58"/>
+  <path d="M85 760 C220 710 280 790 430 748 S700 720 840 765 S1040 730 1120 760" fill="none" stroke="#8e6a45" stroke-width="7" opacity=".25"/>
+  <g opacity=".2" fill="#6b4a32">
+    <circle cx="142" cy="146" r="9"/><circle cx="1050" cy="170" r="13"/><circle cx="925" cy="690" r="8"/>
+  </g>
+  <rect width="1200" height="900" filter="url(#paper)" opacity=".55"/>
+</svg>

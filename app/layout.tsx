@@ -11,7 +11,21 @@ export const metadata = {
   title: "Roman Hancel | Surveying & GIS Tools",
   description:
     "Portfolio of professional surveying and GIS tools including SurveyPath, Survey Manager Web, and Survey Manager App.",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png' }
+    ]
+  },
+  openGraph: {
+    images: ['/og-image.jpg']
+  }
 }
 
 export default function RootLayout({

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">RH portfolio mark</title>
+  <desc id="desc">A hand-drawn monogram mark using warm parchment and charcoal colors.</desc>
+  <rect x="34" y="34" width="444" height="444" rx="86" fill="#ead6a6" stroke="#40372f" stroke-width="18"/>
+  <path d="M120 358V145h76c49 0 74 22 74 61 0 28-14 48-40 57l52 95h-55l-43-83h-16v83zm48-124h23c20 0 31-9 31-27 0-18-11-27-32-27h-22z" fill="#40372f"/>
+  <path d="M286 145h48v78h62v-78h48v213h-48v-88h-62v88h-48z" fill="#7c553e"/>
+  <path d="M84 96C168 62 337 63 428 103M78 418c112 34 250 35 356-4" fill="none" stroke="#b77954" stroke-width="9" stroke-linecap="round" opacity=".68"/>
+  <path d="M101 112l24-9M397 395l22-9M108 398l18 8" stroke="#f9edc9" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+</svg>

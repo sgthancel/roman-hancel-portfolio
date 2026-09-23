@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div className="flex-1 flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
-              <Image src="/images/profile.jpg" alt="Roman Hancel" fill className="object-cover" priority />
+              <Image src="/profile-parchment.png" alt="Roman Hancel" fill className="object-cover" priority />
             </div>
           </div>
         </div>
@@ -470,6 +470,50 @@ export default function Home() {
             <CardFooter>
               <Button asChild className="w-full">
                 <a href="https://grocery.openverb.org/" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">OpenBlog</CardTitle>
+              <CardDescription>openblog.openverb.org</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-4xl font-handwriting text-primary">OpenBlog</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                Blogs were never meant to be silent. OpenBlog restores the web's missing connective tissue by turning blogs into visible, navigable, and connected streams of thought.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://openblog.openverb.org/" target="_blank" rel="noopener noreferrer">
+                  Visit Site
+                </a>
+              </Button>
+            </CardFooter>
+          </Card>
+
+          <Card className="card-highlight">
+            <CardHeader>
+              <CardTitle className="font-handwriting text-2xl">OpenMusicAtlas</CardTitle>
+              <CardDescription>openmusicatlas.org</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
+                <span className="text-4xl font-handwriting text-primary">MusicAtlas</span>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                The world, mapped in music. An atlas where places are the subject of the music: one original song for each of 203 places, each heard in its own musical tradition.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <a href="https://openmusicatlas.org/" target="_blank" rel="noopener noreferrer">
                   Visit Site
                 </a>
               </Button>
