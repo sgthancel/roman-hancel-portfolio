@@ -90,7 +90,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/surveypath.jpg"
+                src="/images/cards/surveypath.jpg"
                 alt="SurveyPath"
                 width={350}
                 height={200}
@@ -112,28 +112,40 @@ export default function Home() {
 
           <Card className="card-highlight">
             <CardHeader>
-              <CardTitle className="font-handwriting text-2xl">Survey Manager Web</CardTitle>
+              <CardTitle className="font-handwriting text-2xl">Survey Manager Website</CardTitle>
               <CardDescription>surveymanagerapp.com</CardDescription>
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/survey-manager-web.jpg"
-                alt="Survey Manager Web"
+                src="/images/cards/survey-manager-web.jpg"
+                alt="Survey Manager Website"
                 width={350}
                 height={200}
                 className="rounded-md mb-4 object-cover w-full"
               />
               <p className="text-sm text-muted-foreground">
-                Modern web platform for managing survey data, clients, maps, and exports. Streamline your workflow with
-                our intuitive interface.
+                Modern web platform for managing survey data, clients, maps, and exports. Includes the SurveyBot AI
+                chatbot, custom AI services, and website templates for surveying professionals.
               </p>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex flex-col gap-2">
               <Button asChild className="w-full">
                 <a href="https://surveymanagerapp.com" target="_blank" rel="noopener noreferrer">
                   Visit Site
                 </a>
               </Button>
+              <div className="grid grid-cols-2 gap-2 w-full">
+                <Button asChild variant="outline" className="w-full">
+                  <a href="https://surveymanagerapp.com/services/ai" target="_blank" rel="noopener noreferrer">
+                    SurveyBot &amp; AI
+                  </a>
+                </Button>
+                <Button asChild variant="outline" className="w-full">
+                  <a href="https://surveymanagerapp.com/website_templates" target="_blank" rel="noopener noreferrer">
+                    Templates
+                  </a>
+                </Button>
+              </div>
             </CardFooter>
           </Card>
 
@@ -144,7 +156,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/survey-manager-app.jpg"
+                src="/images/cards/survey-manager-app.jpg"
                 alt="Survey Manager App"
                 width={350}
                 height={200}
@@ -164,95 +176,6 @@ export default function Home() {
             </CardFooter>
           </Card>
 
-          <Card className="border-2 border-primary/20 card-highlight">
-            <CardHeader>
-              <div className="flex items-center gap-2">
-                <CardTitle className="font-handwriting text-2xl">SurveyBot AI Assistant</CardTitle>
-                <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full font-medium">New!</span>
-              </div>
-              <CardDescription>AI-Powered Chatbot</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Image
-                src="/images/surveybot.jpg"
-                alt="SurveyBot AI Assistant"
-                width={350}
-                height={200}
-                className="rounded-md mb-4 object-cover w-full"
-              />
-              <p className="text-sm text-muted-foreground">
-                Integrate a powerful AI chatbot into your website to handle client inquiries, collect contact info, and
-                automate support. All tools — chatbot testing, chat logs, and embed code — in one unified dashboard.
-              </p>
-            </CardContent>
-            <CardFooter className="flex flex-col gap-2">
-              <Button asChild className="w-full">
-                <a href="https://surveymanagerapp.com/services/ai" target="_blank" rel="noopener noreferrer">
-                  Sign Up for SurveyBot
-                </a>
-              </Button>
-              <Button asChild variant="outline" className="w-full">
-                <a href="https://surveymanagerapp.com/services/ai" target="_blank" rel="noopener noreferrer">
-                  Launch SurveyBot Dashboard
-                </a>
-              </Button>
-            </CardFooter>
-          </Card>
-
-          <Card className="card-highlight">
-            <CardHeader>
-              <CardTitle className="font-handwriting text-2xl">AI Services</CardTitle>
-              <CardDescription>Custom AI Solutions</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Image
-                src="/images/ai-services.jpg"
-                alt="AI Services"
-                width={350}
-                height={200}
-                className="rounded-md mb-4 object-cover w-full"
-              />
-              <p className="text-sm text-muted-foreground">
-                Specialized AI solutions for surveying and GIS professionals. Custom chatbots, data analysis tools, and
-                automation services to enhance your workflow.
-              </p>
-            </CardContent>
-            <CardFooter>
-              <Button asChild className="w-full">
-                <a href="https://surveymanagerapp.com/services/ai" target="_blank" rel="noopener noreferrer">
-                  Explore AI Services
-                </a>
-              </Button>
-            </CardFooter>
-          </Card>
-
-          <Card className="card-highlight">
-            <CardHeader>
-              <CardTitle className="font-handwriting text-2xl">Website Templates</CardTitle>
-              <CardDescription>For Surveying Professionals</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Image
-                src="/images/website-templates.jpg"
-                alt="Website Templates"
-                width={350}
-                height={200}
-                className="rounded-md mb-4 object-cover w-full"
-              />
-              <p className="text-sm text-muted-foreground">
-                Professional website templates designed specifically for land surveyors and GIS professionals. Get your
-                online presence established quickly with our industry-specific designs.
-              </p>
-            </CardContent>
-            <CardFooter>
-              <Button asChild className="w-full">
-                <a href="https://surveymanagerapp.com/website_templates" target="_blank" rel="noopener noreferrer">
-                  Browse Templates
-                </a>
-              </Button>
-            </CardFooter>
-          </Card>
-
           {/* New Cards */}
           <Card className="card-highlight">
             <CardHeader>
@@ -261,7 +184,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/elevatr.jpg"
+                src="/images/cards/elevatr.jpg"
                 alt="Elevatr"
                 width={350}
                 height={200}
@@ -287,7 +210,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/vibemarketingstudio.jpg"
+                src="/images/cards/vibemarketingstudio.jpg"
                 alt="Vibe Marketing Studio"
                 width={350}
                 height={200}
@@ -313,7 +236,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/aitracker.jpg"
+                src="/images/cards/aitracker.jpg"
                 alt="AI Tracker"
                 width={350}
                 height={200}
@@ -339,7 +262,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/foldercopilot.jpg"
+                src="/images/cards/foldercopilot.jpg"
                 alt="Folder Copilot"
                 width={350}
                 height={200}
@@ -367,7 +290,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Image
-                src="/images/carevoiceai.jpg"
+                src="/images/cards/carevoiceai.jpg"
                 alt="CareVoice AI"
                 width={350}
                 height={200}
@@ -394,9 +317,13 @@ export default function Home() {
               <CardDescription>openverb.org</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-4xl font-handwriting text-primary">OpenVerb</span>
-              </div>
+              <Image
+                src="/images/cards/openverb.jpg"
+                alt="OpenVerb"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 The open standard for AI actions. A unified framework for building and integrating AI-powered actions across platforms.
               </p>
@@ -416,9 +343,13 @@ export default function Home() {
               <CardDescription>topics-beta.vercel.app</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-4xl font-handwriting text-primary">Topics</span>
-              </div>
+              <Image
+                src="/images/cards/topics.jpg"
+                alt="Topics"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 AI-assisted music about real life. Create, share, and discover music that tells authentic stories powered by AI collaboration.
               </p>
@@ -438,9 +369,13 @@ export default function Home() {
               <CardDescription>AI-Powered Digital Assistant</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/30 to-primary/10 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-4xl font-handwriting text-primary">Digital Twin</span>
-              </div>
+              <Image
+                src="/images/cards/digital-twin.jpg"
+                alt="Roman Hancel Digital Twin"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 Chat with my AI digital twin! Ask questions about my work, get advice on surveying and development, or discuss project ideas 24/7.
               </p>
@@ -460,9 +395,13 @@ export default function Home() {
               <CardDescription>grocery.openverb.org</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-4xl font-handwriting text-primary">GroceryAI</span>
-              </div>
+              <Image
+                src="/images/cards/groceryai.jpg"
+                alt="GroceryAI"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 Your intelligent grocery assistant. AI-powered pantry tracking, expiration alerts, and instant grocery ordering.
               </p>
@@ -482,9 +421,13 @@ export default function Home() {
               <CardDescription>openblog.openverb.org</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-4xl font-handwriting text-primary">OpenBlog</span>
-              </div>
+              <Image
+                src="/images/cards/openblog.jpg"
+                alt="OpenBlog"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 Blogs were never meant to be silent. OpenBlog restores the web's missing connective tissue by turning blogs into visible, navigable, and connected streams of thought.
               </p>
@@ -504,9 +447,13 @@ export default function Home() {
               <CardDescription>openmusicatlas.org</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-4xl font-handwriting text-primary">MusicAtlas</span>
-              </div>
+              <Image
+                src="/images/cards/openmusicatlas.jpg"
+                alt="OpenMusicAtlas"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 The world, mapped in music. An atlas where places are the subject of the music: one original song for each of 203 places, each heard in its own musical tradition.
               </p>
@@ -541,9 +488,13 @@ export default function Home() {
               <CardDescription>By Roman Hancel</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-3xl font-handwriting text-primary">📚</span>
-              </div>
+              <Image
+                src="/images/cards/built-from-the-ground-up.jpg"
+                alt="Built From the Ground Up"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 A comprehensive summary of the techniques and methodologies used to build my applications. Learn the strategies behind successful app development.
               </p>
@@ -563,9 +514,13 @@ export default function Home() {
               <CardDescription>Debut Album by Roman Hancel</CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="w-full h-[200px] bg-gradient-to-br from-primary/20 to-primary/5 rounded-md mb-4 flex items-center justify-center">
-                <span className="text-3xl font-handwriting text-primary">🎵</span>
-              </div>
+              <Image
+                src="/images/cards/the-smear-campaign.jpg"
+                alt="The Smear Campaign"
+                width={350}
+                height={200}
+                className="rounded-md mb-4 object-cover w-full"
+              />
               <p className="text-sm text-muted-foreground">
                 My debut album featuring AI-assisted music about real life. Available on YouTube and Topics.
               </p>

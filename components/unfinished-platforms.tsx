@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -8,6 +9,7 @@ import { ExternalLink, Brain, Shield, Zap, Globe, MapPin, Wrench, Search, Clock,
 const platforms = [
   {
     title: "Land Surveyor Portfolio",
+    image: "/images/cards/land-surveyor-portfolio.jpg",
     description:
       "Professional portfolio platform for land surveyors with AI-powered document redaction and secure viewing",
     url: "https://land-surveyor-portfolio.vercel.app/",
@@ -24,6 +26,7 @@ const platforms = [
   },
   {
     title: "RedactAI",
+    image: "/images/cards/redactai.jpg",
     description:
       "AI-powered document redaction platform that intelligently removes sensitive information from PDFs and images",
     url: "https://redact-ai-delta.vercel.app/",
@@ -40,6 +43,7 @@ const platforms = [
   },
   {
     title: "Survey Accuracy Studio",
+    image: "/images/cards/survey-accuracy-studio.jpg",
     description:
       "Office-phase automation platform for land surveyors with AI-powered accuracy analysis and quality control",
     url: "https://ai-autocad-automation.vercel.app/",
@@ -56,6 +60,7 @@ const platforms = [
   },
   {
     title: "JamStart",
+    image: "/images/cards/jamstart.jpg",
     description:
       "AI-powered startup accelerator platform for Caribbean builders with funding, mentorship, and media integration",
     url: "https://jamaica-startup.vercel.app/",
@@ -72,6 +77,7 @@ const platforms = [
   },
   {
     title: "GeoStudio",
+    image: "/images/cards/geostudio.jpg",
     description: "Transform geographic stories into cinematic map experiences with AI-powered narration and animation",
     url: "https://geo-studio.vercel.app/",
     icon: <MapPin className="h-6 w-6" />,
@@ -87,6 +93,7 @@ const platforms = [
   },
   {
     title: "AI Presentation Studio",
+    image: "/images/cards/ai-presentation-studio.jpg",
     description:
       "AI-powered platform that creates professional presentations using multiple AI models for content, images, video, and narration",
     url: "https://ai-powerpoint-two.vercel.app/",
@@ -103,6 +110,7 @@ const platforms = [
   },
   {
     title: "Prep Course AI",
+    image: "/images/cards/prep-course-ai.jpg",
     description:
       "AI-powered platform that generates comprehensive study plans from public educational content for licensing exams and certifications",
     url: "https://prep-course-ai.vercel.app/",
@@ -119,6 +127,7 @@ const platforms = [
   },
   {
   title: "AYC - AI Startup Scout",
+  image: "/images/cards/ayc-ai-startup-scout.jpg",
   description:
     "AI-powered platform for founders, investors, and accelerators to discover groundbreaking startup solutions and generate new ideas",
   url: "https://ayc-ten.vercel.app/",
@@ -135,6 +144,7 @@ const platforms = [
 },
 {
   title: "TimeAI - AI-Powered Timesheet Management",
+  image: "/images/cards/timeai.jpg",
   description:
     "Voice-powered AI timesheet platform that streamlines time tracking for teams through intelligent automation",
   url: "https://ai-timesheet-app.vercel.app/",
@@ -151,6 +161,7 @@ const platforms = [
 },
 {
   title: "Ambrose AI - Government Research Platform",
+  image: "/images/cards/ambrose-ai.jpg",
   description:
     "Personalized AI research agent for government insights with interactive global trend analysis and reporting",
   url: "https://ai-timesheet-app-1a5n.vercel.app/",
@@ -167,6 +178,7 @@ const platforms = [
 },
 {
   title: "PaywallOS",
+  image: "/images/cards/paywallos.jpg",
   description:
     "Protect your features. Grow your revenue. Unlock your app's revenue potential with intelligent paywall management and monetization tools",
   url: "https://pay-wall-os.vercel.app/",
@@ -199,8 +211,9 @@ export default function UnfinishedPlatforms() {
         {platforms.map((platform, index) => (
           <Card
             key={index}
-            className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-gradient-to-br from-background to-muted/20"
+            className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg bg-gradient-to-br from-background to-muted/20 overflow-hidden"
           >
+            <Image src={platform.image} alt={platform.title} width={350} height={200} className="w-full h-[200px] object-cover" />
             <CardHeader className="pb-4">
               <div className="flex items-center justify-between mb-3">
                 <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
